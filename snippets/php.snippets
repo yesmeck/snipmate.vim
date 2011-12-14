@@ -214,3 +214,29 @@ snippet fun
 # $... = array (...)
 snippet array
 	$${1:arrayName} = array('${2}' => ${3});${4}
+
+# Function
+snippet fnc
+	function ${1:functionName} (${2})
+	{
+		${4:// code...}
+	}
+
+snippet pufnc
+	${1:public }function ${2:FunctionName}(${3})
+	{
+		${4:// code...}
+	}
+
+snippet prifnc
+	${1:private }function ${2:FunctionName}(${3})
+	{
+		${4:// code...}
+	}
+
+snippet profnc
+	${1:protected }function ${2:FunctionName}(${3})
+	{
+		${4:// code...}
+	}
+
